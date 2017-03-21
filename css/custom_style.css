@@ -1,0 +1,714 @@
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf')  format('truetype'), url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ACaslonPro-Regular';
+  src: url('../fonts/ACaslonPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/ACaslonPro-Regular.otf')  format('opentype'),
+	     url('../fonts/ACaslonPro-Regular.woff') format('woff'), url('../fonts/ACaslonPro-Regular.ttf')  format('truetype'), url('ACaslonPro-Regular.svg#ACaslonPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway-Bold';
+  src:  url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Bold.woff') format('woff'), 
+		url('../fonts/Raleway-Bold.ttf')  format('truetype'), 
+		url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Roboto-Regular.woff') format('woff'),
+	   url('../fonts/Roboto-Regular.ttf')  format('truetype'),
+	   url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src:  url('Raleway.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway.woff') format('woff'),
+		url('../fonts/Raleway.ttf')  format('truetype'),
+		url('../fonts/Raleway.svg#Raleway') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Raleway-SemiBold.woff') format('woff'),
+       url('../fonts/Raleway-SemiBold.ttf')  format('truetype'),
+       url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body
+{
+	font-family: 'Raleway-Medium';
+}
+.header_tt
+{
+	background-image: url("../img/header-bg.png");
+	background-size:cover;
+}
+
+.active
+{
+	color:#FB4248 !important;
+	background:none !important;
+}
+p{
+  font-size: 14px;
+	line-height: 31px;	
+}
+.law_main_navigation .navbar-brand
+{
+	float:right;
+	padding: 1px 15px;
+}
+.main_container
+{
+	width:100%;
+	margin:0px;
+}
+.home_banner .bx-wrapper
+{
+	margin: 0 auto 30px;
+}
+.law_main_top
+{
+	/*background:#232323;
+	background: #232323;*/
+	
+}
+.main-right_lnk ul
+{
+	
+}
+
+.main-right_lnk ul li
+{
+	float: left;
+	border-right: 1px solid #fff;
+	list-style: none;
+	padding: 8px 30px 11px 19px;
+	
+}
+.main-right_lnk
+{
+	
+}
+.main-right_lnk ul li:last-child
+{
+	border-right:none !important;
+}
+.main-right_lnk ul li:nth-child(1) a
+{
+	text-transform:uppercase;
+}
+.main-right_lnk ul li a
+{
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	text-transform:lowercase;
+	font-family: 'Raleway-SemiBold';
+}
+.main-right_lnk ul li a:hover
+{
+	text-decoration:none;
+}
+.law_navbar_bak
+{
+	/*background-image: url("../img/Header_png.png");
+	background-size: 100% 100%;
+	background-position: center center top;
+	background-attachment: fixed;*/
+	
+}
+.law_main_navigation  .navbar-default
+{
+	background:none;
+	border:0px;
+}
+.law_main_navigation .navbar-header
+{
+	width:25%;
+}
+.law_main_navigation ul li {
+    padding: 23px 16px 10px 10px;
+}
+.law_main_navigation ul li a
+{
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+}
+.law_banner
+{
+	background-image:url("../img/home_banner.png");
+	background-size:100% 100%;
+	height:528px;
+}
+.law_banner_l
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+.home_banner .bx-wrapper {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none;
+    background:none;
+}
+.home_banner ul li
+{
+	padding:10px;
+}
+.law_description
+{
+	width: 46%;
+	left: 40px;
+	position: relative;
+	padding-top: 8.5%;
+}
+.law_description button
+{
+	background: #FB4248;
+	width: 33%;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Raleway-Bold';
+}
+.asso_right button
+{
+	background: #FB4248;
+	width:25%;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Raleway-Bold';
+	margin-bottom:20px;
+}
+.do_ex_job h2
+{
+	text-transform: uppercase;
+	font-family: 'Raleway-Bold';
+}
+
+.law_description h3,
+.law_description h4
+{
+	color:#fff;
+}
+.law_description h4
+{
+ font-family: 'ACaslonPro-Regular';
+}
+.law_description h3
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0px;
+	line-height: 54px;
+	font-family: 'Raleway-Bold';
+}
+.home_banner .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 43%;
+}
+
+.associte_short_des h3
+{
+	text-transform: uppercase;
+	color: #FB4248;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top:0px;
+	 font-family: 'Raleway-SemiBold';
+}
+.associte_short_des
+{
+	width:75%;
+}
+.asso_right button
+{
+	text-transform:uppercase;
+}
+.asso_right p
+{
+	text-align:justify;
+}
+.do_excellent_job
+{
+	background-image:url("../img/do_excellent.png");
+	background-size:100% 100%;
+	
+	background-repeat:no-repeat;
+}
+.do_ex_job h2,.do_ex_job p
+{
+	color:#fff;
+}
+.ex_dojobbt,.contact_us_btn
+{
+margin-bottom:25px;
+}
+.contact_us_btn button
+{
+	text-transform: uppercase;
+	padding: 6px;
+	width: 17%;
+	font-size: 20px;
+	border-radius: 0px;
+	background: #FB4248;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Raleway-SemiBold';
+}
+.family_law_des h3
+{
+	text-transform:uppercase;
+	font-family: 'Raleway-SemiBold';
+}
+.family_law ul li
+{
+	float:left;
+	list-style:none;
+}
+.family_law_ig img
+{
+	padding-top:23px;
+}
+.practise_area h2
+{
+	text-transform:uppercase;
+	text-align:center;
+	font-family: 'Raleway-SemiBold';
+}
+.law_section 
+{
+	background-image:url("../img/div_banner.png");
+	background-size:100% 100%;
+	padding-bottom: 25px;
+}
+.latest_news h2
+{
+	text-transform:uppercase;
+	font-size:35px;
+	font-family: 'Raleway-SemiBold';
+}
+.latest_bt
+{
+	margin-bottom:25px;
+}
+.free_case
+{
+	background-image:url("../img/div_minbanner.png");
+	background-size: inherit;
+}
+.latest img
+{
+	width:100%;
+}
+.case_ec_form table
+{
+	width:60%;
+}
+.case_ec_form table tr 
+{
+	line-height:50px;
+}
+.case_ec_form table tr td
+{
+	padding:8px;
+}
+.case_ec_form table tr td input
+{
+	border-radius:0px;
+	height:43px;
+}.case_ec_form table tr td textarea
+{
+	resize:none;
+	border-radius:0px;
+}
+.latest_news
+{
+	margin-bottom:30px;
+}
+.free_evt
+{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	font-family: 'Raleway-Bold';
+}
+.free_eright
+{
+	left:15px;
+	position:relative;
+}
+.free_eright img
+{
+	width:100%;
+}
+.evt_st
+{
+	text-transform: uppercase;
+	background: #FB4248;
+	color: #fff !important;
+	width: 50%;
+	height: 50px;
+	 font-family: 'Raleway-SemiBold';
+}
+.as_law_slug
+{
+	background-image:url("../img/balance.png");
+	background-size: inherit;
+}
+.law_descp p
+{
+	color:#fff;
+	width: 62%;
+}
+.slug_atr
+{
+	color: #BDBD1B !important;
+	left: 10%;
+	position: relative;
+	font-weight: bold;
+	font-size: 16px;
+}
+.law_slug_descp p
+{
+	width:62%;
+	color:#fff;
+	font-family: 'Roboto-Regular';
+}
+.ft_lnks
+{
+	background:#232323;
+}
+.abt_links h3,.Quick_links h3,.Getin_links h3
+{
+	text-transform:uppercase;
+	color:#FB4248;
+	font-weight:bold;
+}
+
+.abt_links p
+{
+	color:#fff;
+}
+.Quick_links ul
+{
+	padding:0px;
+}
+.Quick_links ul li
+{
+	list-style:none;
+	color:#fff;
+	line-height:35px;
+}
+.Quick_links ul li a
+{
+	color:#fff;
+	font-size:17px;
+}
+.Getin_links table
+{
+	width: 76%;
+}
+.Getin_links table tr td
+{
+	color: #fff;
+	padding: 10px;
+	vertical-align: top;
+	font-size: 18px;
+}
+.l_footer
+{
+	background:#141414;
+}
+.lt_ft span
+{
+	color:#fff;
+	padding:10px;
+	font-size:17px;
+}
+.lt_ft
+{
+	padding:10px;
+}
+.logo_mobile
+{
+	display:none;
+}
+.do_ex_job p{
+	width:70%;
+}
+@media screen and (min-width:320px) and (max-width:649px)
+{
+	.main_container
+	{
+		width:100%;
+	}
+	.law_banner_l .bx-viewport
+	{
+		width:100%;
+	}
+	.law_description {
+		width: 100%;
+		left:0px; 
+		position: relative;
+		padding-top: 8.5%;
+	}
+	.asso_left img
+	{
+		width:100%;
+	}
+	.law_description h3 {
+    font-size: 20px;
+	}
+	.header_tt
+	{
+		background:none;
+	}
+	.logo_mobile {
+    display: block !important;
+    background: #fff;
+    min-height: 75px;
+    padding: 0px !important;
+	}
+	.logo_mobile .navbar-brand
+	{
+		 padding:5px;
+	}
+	.logo_mobile .navbar-brand img
+	{
+		width:200px;
+	}	
+	.law_main_navigation .navbar-brand
+	{
+		display:none;
+	}
+	.law_main_top {
+    background: #000;
+	}
+	.main-right_lnk ul {
+    padding: 0px;
+	}
+	.main-right_lnk ul li {
+    padding: 0px 7px 0px 8px;
+	}
+	.home_banner .bx-viewport,.law_banner
+	{
+		height:100%;
+	}
+	.associte_short_des {
+    width: 100%;
+	}
+	.associte_short_des p
+	{
+		text-align: justify;
+	}
+    .contact_us_btn button {
+  
+    width:80%;
+	}
+	.family_law_des
+	{
+		padding-left:11%;
+	}
+	.case_ec_form table {
+    width: 100%;
+	}
+	.free_evt
+	{
+		text-align:center;
+		font-size:25px;
+	}
+	.as_law_slug {
+    
+    background-size: 100% 100%;
+	}
+	.latest img {
+    width: 100%;
+    padding-bottom: 10px;
+	}
+	.law_slug_descp p {
+    width: 100% !important;
+    color: #fff;
+    text-align: justify;
+	}
+	.law_description button {
+    width: 45%;
+    font-size: 15px;
+	}
+	.asso_right button {
+    
+    width: 45%;
+	}
+	.do_ex_job p{
+	width:100%;
+	}
+	.latest_news h2,.associte_short_des h3 
+	{
+    font-size: 25px;
+	}
+	
+}
+@media screen and (min-width:650px) and (max-width:1023px)
+{
+	.main_container
+	{
+		width:100%;
+	}
+	.law_banner_l .bx-viewport
+	{
+		width:100%;
+	}
+	.law_description {
+		width: 100%;
+		left:0px; 
+		position: relative;
+		padding-top: 8.5%;
+	}
+	.asso_left img
+	{
+		width:100%;
+	}
+	.law_description h3 {
+    font-size: 20px;
+	}
+	.header_tt
+	{
+		background:none;
+	}
+	.logo_mobile {
+    display: block !important;
+    background: #fff;
+    min-height: 75px;
+    padding: 0px !important;
+	}
+	.logo_mobile .navbar-brand
+	{
+		 padding:5px;
+	}
+	.logo_mobile .navbar-brand img
+	{
+		width:200px;
+	}	
+	.law_main_navigation .navbar-brand
+	{
+		display:none;
+	}
+	.law_main_top {
+    background: #000;
+	}
+	.main-right_lnk ul {
+    padding: 0px;
+	}
+	.main-right_lnk ul li {
+    padding: 0px 7px 0px 8px;
+	}
+	.home_banner .bx-viewport,.law_banner
+	{
+		height:100%;
+	}
+	.associte_short_des {
+		width: 100%;
+	}
+	.associte_short_des p
+	{
+		text-align: justify;
+	}
+    .contact_us_btn button {
+  
+    width:80%;
+	}
+	.family_law_des
+	{
+		padding-left:11%;
+	}
+	.case_ec_form table {
+    width: 100%;
+	}
+	.free_evt
+	{
+		text-align:center;
+		font-size:25px;
+	}
+	.as_law_slug {
+    
+    background-size: 100% 100%;
+	}
+	.latest img {
+    width: 100%;
+    padding-bottom: 10px;
+	}
+	.law_section .col-md-4
+	{
+		width:100%;
+	}
+	.right_h
+	{
+		width:100%;
+	}
+	.law_slug_descp p {
+    width: 100% !important;
+    color: #fff;
+    text-align: justify;
+	}
+	
+
+}
+@media screen and (min-width:1024px) and (max-width:1280px)
+{ 
+  .law_main_navigation ul li {
+    padding: 0px 0px 0px 0px;
+   }
+   .right_h
+     {
+	 width:100%;  
+   }
+   .main-right_lnk ul li {
+    padding: 8px 12px 6px 16px;
+    margin-bottom: 0px;
+	}
+	.asso_left img
+	{
+		width:100%;
+	}
+	.main-right_lnk {
+    float: right;
+	}
+	.law_main_navigation .navbar-brand img
+	{
+		width: 87%;
+		float: right;
+	}
+	.contact_us_btn button 
+	{
+		width:25%;
+	}
+	.family_law_ig img {
+		width:100%;
+	}
+}
+
